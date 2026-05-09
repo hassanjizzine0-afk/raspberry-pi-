@@ -1,8 +1,7 @@
 
 
-### iwconfig
+### Show Wi-Fi interface details and connection status
 ```bash
-# Show Wi-Fi interface details and connection status
 iwconfig
 ```
 
