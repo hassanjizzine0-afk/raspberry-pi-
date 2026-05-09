@@ -1,6 +1,5 @@
-Here's your file formatted exactly like your example:
 
-```markdown
+
 ### iwconfig
 ```bash
 # Show Wi-Fi interface details and connection status
