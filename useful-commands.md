@@ -1,4 +1,4 @@
-```markdown
+
 ### Show Wi-Fi interface details and connection status
 ```bash
 iwconfig
