@@ -1,43 +1,36 @@
-
-
+```markdown
 ### Show Wi-Fi interface details and connection status
 ```bash
 iwconfig
 ```
 
-### ping -c 4 8.8.8.8
+### Test internet connection by sending 4 packets to Google DNS
 ```bash
-# Test internet connection by sending 4 packets to Google DNS
 ping -c 4 8.8.8.8
 ```
 
-### ip neigh | grep "10.42"
+### Find devices on local network with IP starting with 10.42
 ```bash
-# Find devices on local network with IP starting with 10.42
 ip neigh | grep "10.42"
 ```
 
-### sudo raspi-config
+### Open Raspberry Pi configuration menu
 ```bash
-# Open Raspberry Pi configuration menu
 sudo raspi-config
 ```
 
-### sudo nmcli dev disconnect wlan0
+### Disconnect Wi-Fi on wlan0 interface
 ```bash
-# Disconnect Wi-Fi on wlan0 interface
 sudo nmcli dev disconnect wlan0
 ```
 
-### sudo nmcli connection up "NAME"
+### Connect to a specific saved Wi-Fi network by name
 ```bash
-# Connect to a specific saved Wi-Fi network by name
 sudo nmcli connection up "NAME"
 ```
 
-### nmcli connection show
+### List all saved network connections
 ```bash
-# List all saved network connections
 nmcli connection show
 ```
 ```
