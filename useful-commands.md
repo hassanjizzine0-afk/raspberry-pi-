@@ -33,4 +33,4 @@ sudo nmcli connection up "NAME"
 ```bash
 nmcli connection show
 ```
-```
+
