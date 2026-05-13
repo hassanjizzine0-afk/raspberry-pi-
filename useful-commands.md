@@ -33,4 +33,19 @@ sudo nmcli connection up "NAME"
 ```bash
 nmcli connection show
 ```
+```markdown
+### Show network connections with priority settings
+```bash
+nmcli -f NAME,AUTOCONNECT-PRIORITY connection show
+```
 
+### Set high priority for a preferred Wi-Fi network
+```bash
+sudo nmcli connection modify "YOUR_NETWORK_NAME" connection.autoconnect-priority 20
+```
+
+### Lower priority for another network
+```bash
+sudo nmcli connection modify "OTHER_NETWORK_NAME" connection.autoconnect-priority 5
+```
+```
