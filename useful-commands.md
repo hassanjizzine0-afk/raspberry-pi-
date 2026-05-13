@@ -33,7 +33,7 @@ sudo nmcli connection up "NAME"
 ```bash
 nmcli connection show
 ```
-```markdown
+
 ### Show network connections with priority settings
 ```bash
 nmcli -f NAME,AUTOCONNECT-PRIORITY connection show
